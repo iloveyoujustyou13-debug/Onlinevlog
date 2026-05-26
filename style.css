@@ -1,0 +1,107 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#0d0d0d;
+color:white;
+}
+
+/* HEADER */
+.header{
+display:flex;
+justify-content:space-between;
+padding:15px 6%;
+background:#111;
+position:sticky;
+top:0;
+}
+
+.left{
+color:#00ffcc;
+font-weight:700;
+}
+
+.right button{
+margin-left:10px;
+padding:10px 15px;
+border:none;
+border-radius:10px;
+background:linear-gradient(90deg,#00ffcc,#0099ff);
+font-weight:700;
+cursor:pointer;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:40px;
+}
+
+.hero h1{
+color:#00ffcc;
+}
+
+/* POST PANEL */
+.panel{
+display:none;
+position:fixed;
+top:80px;
+right:20px;
+background:#1a1a1a;
+padding:20px;
+border-radius:12px;
+width:300px;
+}
+
+input,textarea{
+width:100%;
+margin:8px 0;
+padding:10px;
+border:none;
+border-radius:8px;
+background:#222;
+color:white;
+}
+
+/* ARTICLES */
+.article{
+background:#1a1a1a;
+padding:15px;
+margin:15px;
+border-radius:12px;
+}
+
+/* BUTTONS */
+button{
+margin:5px 5px 0 0;
+padding:6px 10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+background:#00ffcc;
+}
+
+/* MODAL */
+.modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+justify-content:center;
+align-items:center;
+}
+
+.box{
+background:#222;
+padding:20px;
+border-radius:12px;
+width:300px;
+}
+
+img{
+width:100%;
+border-radius:10px;
+margin-top:10px;
+}

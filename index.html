@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeoBlog Community X</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+<div class="left">🌍 NeoBlog X</div>
+
+<div class="right">
+<button onclick="openPost()">+ Post</button>
+<button onclick="openAdminLogin()">Admin</button>
+</div>
+</header>
+
+<section class="hero">
+<h1>Community Blogging Platform</h1>
+<p>Write • Share • Like • Comment</p>
+</section>
+
+<!-- POST PANEL -->
+<div class="panel" id="postPanel">
+
+<input id="creator" placeholder="Your Name">
+<input id="title" placeholder="Title">
+<textarea id="content" placeholder="Write article..."></textarea>
+<input id="category" placeholder="Category">
+<input type="file" id="image" accept="image/*">
+
+<button onclick="publish()">Publish</button>
+<button onclick="closePost()">Close</button>
+
+</div>
+
+<!-- ADMIN LOGIN -->
+<div class="modal" id="adminModal">
+
+<div class="box">
+
+<h2>Admin Login</h2>
+
+<input id="adminUser" placeholder="Username">
+<input id="adminPass" type="password" placeholder="Password">
+
+<button onclick="loginAdmin()">Login</button>
+<p id="adminError"></p>
+
+</div>
+
+</div>
+
+<!-- ARTICLES -->
+<section class="feed">
+<div id="feed"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
